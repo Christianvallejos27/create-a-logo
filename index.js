@@ -5,7 +5,7 @@ const{Circle, Square, Triangle}= require("./lib/shapes")
 const SVG = require("./lib/svg")
 
 function createlogo(filename,response){
-    fs.writeFileSync(filename,response)
+    fs.writeFileSync(filenamegit,response)
 }
 
 function startlogo (){
